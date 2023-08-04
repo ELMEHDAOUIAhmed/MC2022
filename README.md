@@ -1,12 +1,11 @@
-##################################################
-# Auteurs                                        #
-# Projet Cree par :                              #
-#                                                #
-#           Chebbah hamza 202031080702           #
-#           YACINE OUKKAL  202031060792          #
-#  ELMEHDAOUI Ahmed zine el abidine 191931089014 #
-#                                                #
-##################################################
+
+#Auteurs                                       
+Projet Cree par : 
+
+#           Chebbah hamza 202031080702
+#           YACINE OUKKAL  202031060792
+#  ELMEHDAOUI Ahmed zine el abidine 191931089014
+
 # HOSTED
     https://microclubhamzaahmedyacine.000webhostapp.com/index.php
 
