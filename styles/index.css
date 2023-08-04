@@ -1,0 +1,183 @@
+    /* ------------ fonts -----------------*/
+    
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+    /* general settings */
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+
+     :root {
+        --white: #fff;
+        --darkblue: #1B2D3A;
+        --blue: #B1D9EC;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 9px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #ffffff;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background-color: var(--darkblue);
+        transition: background-color 300ms ease-in;
+    }
+    
+    *,
+    *::after,
+    *::before {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+        background-color: var(--blue);
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    a {
+        color: unset;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+    .mainWrapper {
+        background: var(--blue);
+        position: relative;
+    }
+    /*----------------- Media queries ------------*/
+    
+    @media screen and (max-width: 1050px) {
+        .chiffres,
+        .sponsors {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .chiffres h1 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+        section.presentation {
+            display: flex;
+            justify-content: center;
+        }
+        .containerPresentation {
+            flex-direction: column;
+            align-items: center;
+        }
+        .presentationTextContainer {
+            padding: 0px;
+            margin-left: 62px;
+        }
+        .containerPresentation img {
+            margin: 0;
+        }
+        .presentationTextContainer p {
+            width: 65vw;
+        }
+        .upperContainer {
+            flex-direction: column-reverse;
+        }
+        .upperContainer h1 {
+            margin: 0;
+        }
+        .splitContainer {
+            flex-direction: column;
+        }
+        .ballons {
+            margin: 166px 0 34px 0;
+        }
+        .contactContainer {
+            flex-direction: column;
+            margin: 0px 10px;
+        }
+        .infoContainer {
+            margin: 0;
+        }
+        .flexwrap,
+        .contactWrapper {
+            min-height: 1360px;
+        }
+        #sun {
+            position: absolute;
+            top: 37px;
+            right: -10px;
+            display: inline;
+        }
+        #Cloud {
+            position: absolute;
+            top: 107px;
+            left: 20px;
+            display: inline;
+        }
+        .aboutus,
+        .achivements {
+            flex-direction: column;
+            align-items: center;
+        }
+        .achivements {
+            flex-direction: column-reverse !important;
+            margin-top: 70px;
+        }
+        .achivements img {
+            width: 100% !important;
+        }
+        .chiffres,
+        .sponsors {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .chiffres h1 {
+            grid-column-start: 1;
+            grid-column-end: 1;
+        }
+        .sponsors img {
+            margin: 59px 0;
+        }
+        .subFormContainer form .containerr {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    @media screen and (max-width: 450px) {
+        .first,
+        .second {
+            margin: 0;
+        }
+    }
+    
+    @keyframes drive {
+        0% {
+            transform: translateX(-200px);
+        }
+        100% {
+            transform: translateX(100vw);
+        }
+    }
+    
+    .animate {
+        animation: drive 4s linear infinite;
+        position: absolute;
+        bottom: 12vw;
+        width: 30vw;
+    }
+    
+    .animate:hover {
+        animation-play-state: paused;
+    }

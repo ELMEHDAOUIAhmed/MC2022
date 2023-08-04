@@ -1,0 +1,126 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+.msg_erreur{
+
+    background: #fc5555;
+    border: 8px solid #FFFFFF;
+    border-radius: 13px;
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+
+}
+
+.subContainer {
+    position: relative;
+    height: 100vw;
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    background-image: url(../assests/images/bgSub.png);
+}
+
+.subTextContainer {
+    padding: 123px 0 0 10vw;
+    width: fit-content;
+    position: relative;
+    font-family: 'IBM Plex Mono';
+}
+
+.subTextContainer h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3.5vw;
+    margin: 20px 0 0 20px;
+}
+
+.subTextContainer span {
+    color: rgb(236, 236, 236);
+    font-size: 1.7vw;
+}
+
+.subline {
+    width: 86% !important;
+}
+
+.subFormContainer form {
+    width: 100%;
+    margin-top: 74px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subFormContainer form .containerr {
+    display: flex;
+}
+
+.subFormContainer form .subInput {
+    background: #FFFFFF;
+    border: none;
+    -webkit-box-shadow: 2px 2px 23px 7px rgba(0, 0, 0, 0.45);
+    box-shadow: 2px 2px 23px 7px rgba(0, 0, 0, 0.45);
+    border-radius: 7px;
+    height: 50px;
+    margin: 12px 0;
+    padding-left: 20px;
+    width: 326px;
+    resize : none;
+    overflow-y: auto;
+    padding: 14px 20px;
+
+}
+
+.subSubmit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 50px;
+    margin: 50px 0;
+    width: 280px;
+    font-family: 'IBM Plex Mono';
+    background: linear-gradient(180deg, #FFD37B 0%, #FCE799 99.98%, #FCE79A 99.99%, #FAF2AB 100%);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.subSubmit:hover{
+background: #4ca356;
+color : white;
+}
+
+.validmsgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.validemsg {
+    background: #B7DE72;
+    border: 8px solid #FFFFFF;
+    border-radius: 13px;
+    max-width: 700px;
+    width: 90%;
+    text-align: center;
+    font-family: 'IBM Plex Mono';
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.first,
+.second {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}

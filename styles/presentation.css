@@ -1,0 +1,241 @@
+html {
+    scroll-behavior: smooth;
+}
+
+strong {
+
+    color : #FA5371;
+    font-size: 2rem;
+}
+
+.aboutus,
+.achivements {
+    display: flex;
+    justify-content: center;
+}
+
+.presentationWrapper {
+    background: #B1D9EC;
+}
+
+.aboutus p,
+.achivements p {
+    background: #90C6D9;
+    border-radius: 47px;
+    box-shadow: 17px -17px 2px #7DADBE;
+    padding: 30px;
+    max-width: 400px;
+    margin-top: 20px;
+    font-size: clamp(14px, 1.5vw, 20px);
+    margin-left: 10px;
+    font-family: 'IBM Plex Mono';
+}
+.textAboutus h1{
+    margin: 0 0 2rem 0;
+}
+.achivements p {
+    max-width: 600px;
+}
+.achivements{
+    margin: 4rem 0 ;
+}
+.aboutus h1,
+.achivements h1 {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+}
+.achivements h1{
+    margin: 0 0 2rem 0;
+}
+
+.aboutus div,
+.achivements div {
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+}
+
+div.aboutus img {
+    width: 50%;
+    margin-top: 40px;
+    height: fit-content;
+}
+
+.presentationWrapper div.achivements img {
+    width: 30%;
+    height: fit-content;
+    margin-top: 80px;
+}
+
+.aboutus {
+    padding-top: 100px;
+}
+
+.titreChiffres {
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    margin: 100px 0px 50px 55px;
+    font-size: 45px;
+}
+
+.chiffres {
+    display: grid;
+    background: #90C6D9;
+    border-radius: 47px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 52px;
+    margin: 7.5rem;
+    padding: 20px 3rem;
+    box-shadow: 17px -17px 2px #7DADBE;
+}
+
+.chiffres h1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.chiffres div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chiffres div h3 {
+    margin: 20px 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.etudiants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #90C6D9;
+    border-radius: 47px;
+    margin: 100px 7.5rem;
+    padding: 50px 0;
+    min-height: 300px;
+    box-shadow: 17px -17px 2px #7DADBE;
+}
+
+.etudiants h1 {
+    margin: 30px 0;
+    font-family: 'IBM Plex Mono';
+    font-weight: 700;
+}
+
+.niveaux {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 100px 7.5rem;
+    padding: 50px 0;
+}
+
+.niveaux div {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.niveaux div:nth-child(1) strong,
+.niveaux div:nth-child(2) strong,
+.niveaux div:nth-child(4) strong {
+    margin-top: 16px;
+}
+
+.sponsors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #90C6D9;
+    border-radius: 47px;
+    box-shadow: 17px -17px 2px #7DADBE;
+    margin: 100px 7.5rem 50px 7.5rem;
+    justify-items: center;
+/*    padding: 100px 0;*/
+    
+    padding: 20px 3rem;
+}
+
+.sponsors div {
+    display: flex;
+    align-items: center;
+}
+.sponsors img{
+    width: 20vw;
+    min-width: 170px;
+}
+
+.imagepres {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 800px){
+    h1{
+        text-align: center;
+    }
+    .chiffres{
+        margin: 100px 5rem;
+    }
+    .etudiants{
+       margin: 100px 5rem;
+    }
+    .sponsors{
+        margin: 100px 5rem;
+    }
+} 
+
+
+
+@media only screen and (max-width: 700px){
+    .niveaux{
+        flex-direction: column;
+    }
+    .niveaux > div{
+        padding: 1rem 0;
+    }
+    
+    
+    
+
+} 
+@media only screen and (max-width: 500px){
+    
+    .chiffres{
+        margin: 100px 2rem;
+        padding: 20px 0rem;
+    }
+    .etudiants{
+        margin: 100px 2rem;
+     }
+     .titreChiffres{
+         margin: 100px 0px 0px 0px;
+     }
+     .sponsors{
+         margin: 100px 2rem;
+     }
+} 
+@media only screen and (max-width: 300px){
+    h1{
+        font-size: smaller;
+    }
+    .chiffres{
+        margin: 100px 0rem;
+        padding: 20px 0rem;
+    }
+    .etudiants{
+        margin: 100px 0rem;
+     }
+     .sponsors{
+        margin: 100px 0rem;
+    }
+} 
+
