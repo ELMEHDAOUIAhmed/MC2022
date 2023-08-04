@@ -39,8 +39,8 @@ INSERT INTO `event` ( `event_name`, `event_desc`, `event_logo`, `event_img_1`, `
 
 Veuillez vous connecter à ce gmail pour recevoir tous les e-mails liés aux inscriptions et aux commentaires reçus
 
-gmail:microclub.verfication.usthb@gmail.com
-motdepass:Karloskarlosxx2
+gmail:xxxxxxx@gmail.com
+motdepass:xxxxxxxx
 
 Cet e-mail est utilisé pour envoyer des e-mails aux utilisateurs récemment inscrits  et également récupérer les information et l envoyer a l admin
 
