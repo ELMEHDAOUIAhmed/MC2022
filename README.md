@@ -7,13 +7,13 @@
 #  ELMEHDAOUI Ahmed zine el abidine 191931089014 #
 #                                                #
 ##################################################
-#HOSTED
+# HOSTED
     https://microclubhamzaahmedyacine.000webhostapp.com/index.php
 
 # Configuration de la base de données
 
 1.Créer une base de données nommée : login .
-2. importez les tables de la base de données dans phpmyadmin à partir du fichier appelé : login.sql , situé dans MicroClub-Project\database\login.sql
+2.importez les tables de la base de données dans phpmyadmin à partir du fichier appelé : login.sql , situé dans MicroClub-Project\database\login.sql
 
 La configuration de la base de données est terminée !
 
@@ -29,6 +29,7 @@ Comment ajouter un événement ?
 3.Inserer l' evenement dans la table "event" dans phpmyadmin
 
 example :
+#
 
 INSERT INTO `event` ( `event_name`, `event_desc`, `event_logo`, `event_img_1`, `event_img_2`, `event_img_3`) VALUES
 ('Micro Catch The Flag', 'Description d evenement.', './assests/images/events/logo_event.png', './assests/images/events/MCTF_1.jpg', './assests/images/events/MCTF_2.jpg', './assests/images/events/MCTF_3.jpg'),
