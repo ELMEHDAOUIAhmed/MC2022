@@ -53,18 +53,15 @@ MicroClub-Project\etapes_d_inscription_email_contact
 n'oubliez pas de vous connecter au gmail indiqué afin de pouvoir  tester.
 
 # Informations importantes
-
-    Chaque Utilisateur qui s iscrit dans le site  Obtient un e-mail contenant des informations sur son inscription récente en même temps que l'administrateur reçoit un e-mail qu'un nouvel utilisateur a rejoint
+Chaque Utilisateur qui s iscrit dans le site  Obtient un e-mail contenant des informations sur son inscription récente en même temps que l'administrateur reçoit un e-mail qu'un nouvel utilisateur a rejoint
 
 # Page de Contact 
-
-    Chaque utilisateur qui soumet un message reçoit un e-mail indiquant que ce message est bien reçu 
-     en même temps, l'administrateur reçoit un e-mail contenant ce commentaire.
+Chaque utilisateur qui soumet un message reçoit un e-mail indiquant que ce message est bien reçu 
+en même temps, l'administrateur reçoit un e-mail contenant ce commentaire.
 
 # Page Presentation
-
-    Les chiffres sont calculer seulement pour les Utilisateurs approuvés uniquement ( email envoyer a l admin : microclub.verfication.usthb@gmail.com , peut accepter l utilisateur directement
-    de l email s'il l'approuve , L'utilisateur sera considéré comme approuvé et le numéro sera ajouté en présentation en fonction de sa faculté et de son année d'étude )
+Les chiffres sont calculer seulement pour les Utilisateurs approuvés uniquement ( email envoyer a l admin : microclub.verfication.usthb@gmail.com , peut accepter l utilisateur directement
+de l email s'il l'approuve , L'utilisateur sera considéré comme approuvé et le numéro sera ajouté en présentation en fonction de sa faculté et de son année d'étude )
 
 # Compatibilité des navigateur
 
