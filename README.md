@@ -29,10 +29,10 @@ Comment ajouter un événement ?
 
 example :
 #
-
+`
 INSERT INTO `event` ( `event_name`, `event_desc`, `event_logo`, `event_img_1`, `event_img_2`, `event_img_3`) VALUES
 ('Micro Catch The Flag', 'Description d evenement.', './assests/images/events/logo_event.png', './assests/images/events/MCTF_1.jpg', './assests/images/events/MCTF_2.jpg', './assests/images/events/MCTF_3.jpg'),
-
+`
 
 # Boite Email utilisée
 
